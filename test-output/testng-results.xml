@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="14" passed="13" failed="0" skipped="1">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-12-31T23:56:37 IST" name="AllSuite" finished-at="2023-12-31T23:56:51 IST" duration-ms="13871">
+    <groups>
+      <group name="Functional">
+        <method signature="Testng4.test4()[pri:0, instance:ui.Testng4@33065d67]" name="test4" class="ui.Testng4"/>
+        <method signature="Testng6.test4()[pri:0, instance:ui.Testng6@6fa51cd4]" name="test4" class="ui.Testng6"/>
+      </group> <!-- Functional -->
+      <group name="all">
+        <method signature="Testng4.test1()[pri:0, instance:ui.Testng4@33065d67]" name="test1" class="ui.Testng4"/>
+        <method signature="Testng4.test2()[pri:0, instance:ui.Testng4@33065d67]" name="test2" class="ui.Testng4"/>
+        <method signature="Testng4.test3()[pri:0, instance:ui.Testng4@33065d67]" name="test3" class="ui.Testng4"/>
+        <method signature="Testng4.test4()[pri:0, instance:ui.Testng4@33065d67]" name="test4" class="ui.Testng4"/>
+        <method signature="Testng6.test1()[pri:0, instance:ui.Testng6@6fa51cd4]" name="test1" class="ui.Testng6"/>
+        <method signature="Testng6.test2()[pri:0, instance:ui.Testng6@6fa51cd4]" name="test2" class="ui.Testng6"/>
+        <method signature="Testng6.test4()[pri:0, instance:ui.Testng6@6fa51cd4]" name="test4" class="ui.Testng6"/>
+        <method signature="Testng6.test3()[pri:1, instance:ui.Testng6@6fa51cd4]" name="test3" class="ui.Testng6"/>
+      </group> <!-- all -->
+      <group name="Sanity">
+        <method signature="Testng4.test2()[pri:0, instance:ui.Testng4@33065d67]" name="test2" class="ui.Testng4"/>
+        <method signature="Testng4.test3()[pri:0, instance:ui.Testng4@33065d67]" name="test3" class="ui.Testng4"/>
+        <method signature="Testng6.test2()[pri:0, instance:ui.Testng6@6fa51cd4]" name="test2" class="ui.Testng6"/>
+        <method signature="Testng6.test3()[pri:1, instance:ui.Testng6@6fa51cd4]" name="test3" class="ui.Testng6"/>
+      </group> <!-- Sanity -->
+      <group name="Regression">
+        <method signature="Testng4.test1()[pri:0, instance:ui.Testng4@33065d67]" name="test1" class="ui.Testng4"/>
+        <method signature="Testng4.test2()[pri:0, instance:ui.Testng4@33065d67]" name="test2" class="ui.Testng4"/>
+        <method signature="Testng4.test4()[pri:0, instance:ui.Testng4@33065d67]" name="test4" class="ui.Testng4"/>
+        <method signature="Testng6.test1()[pri:0, instance:ui.Testng6@6fa51cd4]" name="test1" class="ui.Testng6"/>
+        <method signature="Testng6.test2()[pri:0, instance:ui.Testng6@6fa51cd4]" name="test2" class="ui.Testng6"/>
+        <method signature="Testng6.test4()[pri:0, instance:ui.Testng6@6fa51cd4]" name="test4" class="ui.Testng6"/>
+      </group> <!-- Regression -->
+    </groups>
+    <test started-at="2023-12-31T23:56:37 IST" name="Test" finished-at="2023-12-31T23:56:51 IST" duration-ms="13871">
+      <class name="ui.Testng2">
+        <test-method is-config="true" signature="alogin()[pri:0, instance:ui.Testng2@57a78e3]" started-at="2023-12-31T23:56:37 IST" name="alogin" finished-at="2023-12-31T23:56:37 IST" duration-ms="23" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- alogin -->
+        <test-method is-config="true" signature="dbconnect()[pri:0, instance:ui.Testng2@57a78e3]" started-at="2023-12-31T23:56:51 IST" name="dbconnect" finished-at="2023-12-31T23:56:51 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dbconnect -->
+        <test-method signature="blogintest()[pri:1, instance:ui.Testng2@57a78e3]" started-at="2023-12-31T23:56:51 IST" name="blogintest" finished-at="2023-12-31T23:56:51 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- blogintest -->
+        <test-method is-config="true" signature="dbdisconnect()[pri:0, instance:ui.Testng2@57a78e3]" started-at="2023-12-31T23:56:51 IST" name="dbdisconnect" finished-at="2023-12-31T23:56:51 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dbdisconnect -->
+        <test-method signature="alogintest()[pri:2, instance:ui.Testng2@57a78e3]" started-at="2023-12-31T23:56:51 IST" name="alogintest" finished-at="2023-12-31T23:56:51 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- alogintest -->
+        <test-method is-config="true" signature="dbconnect()[pri:0, instance:ui.Testng2@57a78e3]" started-at="2023-12-31T23:56:51 IST" name="dbconnect" finished-at="2023-12-31T23:56:51 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dbconnect -->
+        <test-method is-config="true" signature="dbdisconnect()[pri:0, instance:ui.Testng2@57a78e3]" started-at="2023-12-31T23:56:51 IST" name="dbdisconnect" finished-at="2023-12-31T23:56:51 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dbdisconnect -->
+        <test-method is-config="true" signature="blogin()[pri:0, instance:ui.Testng2@57a78e3]" started-at="2023-12-31T23:56:51 IST" name="blogin" finished-at="2023-12-31T23:56:51 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- blogin -->
+      </class> <!-- ui.Testng2 -->
+      <class name="ui.Testng3">
+        <test-method signature="textverify()[pri:0, instance:ui.Testng3@3e27ba32]" started-at="2023-12-31T23:56:38 IST" name="textverify" finished-at="2023-12-31T23:56:51 IST" duration-ms="13688" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- textverify -->
+      </class> <!-- ui.Testng3 -->
+      <class name="ui.Testng4">
+        <test-method signature="test1()[pri:0, instance:ui.Testng4@33065d67]" started-at="2023-12-31T23:56:51 IST" name="test1" finished-at="2023-12-31T23:56:51 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test2()[pri:0, instance:ui.Testng4@33065d67]" started-at="2023-12-31T23:56:51 IST" name="test2" finished-at="2023-12-31T23:56:51 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method signature="test3()[pri:0, instance:ui.Testng4@33065d67]" started-at="2023-12-31T23:56:51 IST" name="test3" finished-at="2023-12-31T23:56:51 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method signature="test4()[pri:0, instance:ui.Testng4@33065d67]" started-at="2023-12-31T23:56:51 IST" name="test4" finished-at="2023-12-31T23:56:51 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test4 -->
+      </class> <!-- ui.Testng4 -->
+      <class name="ui.Testng5">
+        <test-method signature="skiptest1()[pri:0, instance:ui.Testng5@402c4085]" started-at="2023-12-31T23:56:51 IST" name="skiptest1" finished-at="2023-12-31T23:56:51 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- skiptest1 -->
+        <test-method signature="skiptest2()[pri:0, instance:ui.Testng5@402c4085]" started-at="2023-12-31T23:56:51 IST" name="skiptest2" finished-at="2023-12-31T23:56:51 IST" duration-ms="2" status="SKIP">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[skipping the test forcefully]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: skipping the test forcefully
+at ui.Testng5.skiptest2(Testng5.java:14)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- skiptest2 -->
+        <test-method signature="skiptest3()[pri:0, instance:ui.Testng5@402c4085]" started-at="2023-12-31T23:56:51 IST" name="skiptest3" finished-at="2023-12-31T23:56:51 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- skiptest3 -->
+      </class> <!-- ui.Testng5 -->
+      <class name="ui.Testng6">
+        <test-method is-config="true" signature="beforegroup()[pri:0, instance:ui.Testng6@6fa51cd4]" started-at="2023-12-31T23:56:51 IST" name="beforegroup" finished-at="2023-12-31T23:56:51 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforegroup -->
+        <test-method is-config="true" signature="beforeclass()[pri:0, instance:ui.Testng6@6fa51cd4]" started-at="2023-12-31T23:56:51 IST" name="beforeclass" finished-at="2023-12-31T23:56:51 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method signature="test1()[pri:0, instance:ui.Testng6@6fa51cd4]" started-at="2023-12-31T23:56:51 IST" name="test1" finished-at="2023-12-31T23:56:51 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test2()[pri:0, instance:ui.Testng6@6fa51cd4]" started-at="2023-12-31T23:56:51 IST" name="test2" finished-at="2023-12-31T23:56:51 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method signature="test4()[pri:0, instance:ui.Testng6@6fa51cd4]" started-at="2023-12-31T23:56:51 IST" name="test4" finished-at="2023-12-31T23:56:51 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test4 -->
+        <test-method signature="test3()[pri:1, instance:ui.Testng6@6fa51cd4]" started-at="2023-12-31T23:56:51 IST" name="test3" finished-at="2023-12-31T23:56:51 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method is-config="true" signature="aftergroup()[pri:0, instance:ui.Testng6@6fa51cd4]" started-at="2023-12-31T23:56:51 IST" name="aftergroup" finished-at="2023-12-31T23:56:51 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftergroup -->
+        <test-method is-config="true" signature="afterclass()[pri:0, instance:ui.Testng6@6fa51cd4]" started-at="2023-12-31T23:56:51 IST" name="afterclass" finished-at="2023-12-31T23:56:51 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterclass -->
+      </class> <!-- ui.Testng6 -->
+    </test> <!-- Test -->
+  </suite> <!-- AllSuite -->
+</testng-results>
